@@ -7,7 +7,18 @@ namespace ConsoleApp10
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+<<<<<<< HEAD
 
+=======
+            int a = 1000;
+            while (a > 1)
+            {
+                a = a - 7;
+                Console.WriteLine(a);
+            }
+            Console.ReadLine();
+            
+>>>>>>> 837cc58746d97568697156db09ab878735c5b3ac
 
 
             Console.WriteLine("гав гав");
@@ -27,6 +38,12 @@ namespace ConsoleApp10
 
 
                 //  Привет   это  первый совместный  коммит 
+
+            //я настоящий гуль. ты дурак...
+
+            //Артем,не говори "позязя"
+
+            //давайте отчислим тех кто хотел к 1 паре
         }
     }
 }
