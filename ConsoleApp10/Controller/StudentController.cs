@@ -1,7 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading;
 
 namespace ConsoleApp10.Controller
 {
+   public delegate void PrintDelegate(string message);
+
     public class StudentController
     {
         public List<Model.Student> Students
@@ -20,6 +24,16 @@ namespace ConsoleApp10.Controller
                 Name = name,
                 Group = group
             });
+        }
+
+
+        public void PrintStudent (PrintDelegate print)
+        {
+            foreach (var st in Students)
+            {
+                Thread.Sleep(1000);
+               print  ($"{st.Name} - { st.Group}");
+            }
         }
 
     }

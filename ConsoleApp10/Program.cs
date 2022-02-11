@@ -4,9 +4,11 @@ namespace ConsoleApp10
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            StudentController controller = 
+
+            StudentController controller =
                 new StudentController();
 
             controller.AddStudent("Иван", "ИС-20-02");
@@ -15,16 +17,35 @@ namespace ConsoleApp10
             controller.AddStudent("Саша", "ИС-20-02");
             controller.AddStudent("Егор", "ИС-20-02");
 
+            PrintDelegate print = MyPrint;
+            controller.PrintStudent(print);
+        }
 
-            foreach (var st in controller.Students)
-            {
-                Console.WriteLine
-                    ($"{st.Name} - { st.Group}");
-
-            }
-
+        private static void MyPrint(string message)
+        {
+            Console.WriteLine(message);
         }
     }
-
-   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
