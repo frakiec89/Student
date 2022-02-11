@@ -9,6 +9,16 @@ namespace ConsoleApp10
             Console.WriteLine("Hello World!");
             
                 '
+
+
+
+
+
+
+
+
+
+                //  Привет   это  первый совместный  коммит 
         }
     }
 }
