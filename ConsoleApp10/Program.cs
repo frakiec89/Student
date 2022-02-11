@@ -12,7 +12,7 @@ namespace ConsoleApp10
             Console.WriteLine("эй богдан");
             while (a > 0)
             {
-                Console.WriteLine"@ {}";
+                Console.WriteLine($" {a} - 7 ");
             }
 
         }
