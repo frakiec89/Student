@@ -7,9 +7,8 @@ namespace ConsoleApp10
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-<<<<<<< HEAD
-
-
+            
+                
 
 
 
@@ -27,10 +26,7 @@ namespace ConsoleApp10
 
 
 
-            //  Привет   это  первый совместный  коммит 
-
-            Console.WriteLine("я канеки кен 1000-7. Нет ты дурак");
-
+                //  Привет   это  первый совместный  коммит 
         }
     }
 }
