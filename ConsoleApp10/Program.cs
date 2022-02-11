@@ -7,8 +7,11 @@ namespace ConsoleApp10
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            
-                
+
+            int e = 0;
+            int x = 2;
+            x = e;
+            Console.WriteLine(e);
 
 
 
@@ -18,7 +21,9 @@ namespace ConsoleApp10
 
 
 
-                //  Привет   это  первый совместный  коммит 
+
+
+            //  Привет   это  первый совместный  коммит 
         }
     }
 }
