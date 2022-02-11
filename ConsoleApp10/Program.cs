@@ -15,6 +15,7 @@ namespace ConsoleApp10
                 Console.WriteLine($" {a} - 7 ");
             }
 
+                //  Привет   это  первый совместный  коммит 
         }
     }
 }
